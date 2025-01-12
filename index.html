@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body bgcolor="#e6f3ff" text="#333333">
+<table width="100%" height="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="center" valign="middle">
+<table width="400" bgcolor="#ffffff" cellspacing="0" cellpadding="20" border="2" bordercolor="#1a4a8d">
+<tr>
+<td align="center">
+<font size="5" color="#1a4a8d"><b>Register</b></font><br><br>
+<font color="#666666">Please fill in all required fields to register</font><br><br>
+<form action="success.html" method="get">
+<table width="100%" cellspacing="0" cellpadding="5">
+<tr>
+<td colspan="2" align="center"><font color="#1a4a8d"><b>Personal Information</b></font></td>
+</tr>
+<tr>
+<td><label for="fullname">Full Name:</label></td>
+<td><input type="text" id="fullname" name="fullname" required size="30"></td>
+</tr>
+<tr>
+<td><label for="email">Email Address:</label></td>
+<td><input type="email" id="email" name="email" required size="30"></td>
+</tr>
+<tr>
+<td><label for="password">Password:</label></td>
+<td><input type="password" id="password" name="password" required size="30"></td>
+</tr>
+<tr>
+<td><label for="dob">Date of Birth:</label></td>
+<td><input type="date" id="dob" name="dob" required></td>
+</tr>
+<tr>
+<td colspan="2">
+<font color="#1a4a8d"><b>Gender</b></font><br>
+<input type="radio" id="male" name="gender" value="male" required>
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+</td>
+</tr>
+<tr>
+<td><label for="country">Country:</label></td>
+<td>
+<select id="country" name="country" required>
+<option value="">Select your country</option>
+<option value="PH">Philippines</option>
+<option value="US">United States</option>
+<option value="UK">United Kingdom</option>
+<option value="CA">Canada</option>
+<option value="AU">Australia</option>
+<option value="IN">India</option>
+<option value="Other">Other</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Register">
+</td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
